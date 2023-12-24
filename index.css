@@ -1,0 +1,13 @@
+.parent{
+    background-color: blue;
+    height: 200px;
+    width: 500px;
+    border: 9px solid rgb(128, 119, 0);
+
+}
+@media(min-width:300px) and (max-width:500px){
+    .parent{
+        background-color: aqua;
+    }
+
+}

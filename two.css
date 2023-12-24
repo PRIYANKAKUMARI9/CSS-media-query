@@ -1,0 +1,44 @@
+.container{
+    height: 500px;
+    background-color: #cc0e0e;
+    border: 5px solid greenyellow;
+    display: flex;
+    
+    margin: 5px;
+    padding: 5px;
+}
+.boxleft{
+    width: 180px;
+    height: 27%;
+    background-color: blueviolet;
+    border: 3px solid rgb(17, 16, 13);
+    margin: 2px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.boxright{
+    
+    background-color: #3414e6;
+    border: 3px solid black;
+    height: 27%;
+    margin: 2px;
+    padding: 5px;
+}
+p{
+    border: 3px solid black;
+    margin: 2px ;
+    padding: 5px;
+}
+img{
+    width: 180px;
+    height: 55%;
+    margin: 2px;
+    padding: 5px;
+}
+
+@media (max-width:640px){
+ .container{
+    flex-direction: column;
+ }
+}

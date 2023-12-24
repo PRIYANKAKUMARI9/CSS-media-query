@@ -1,0 +1,39 @@
+.container{
+    background-color: aqua;
+    border: 2px solid green;
+    margin: 5px;
+    display: flex;
+    
+}
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 3px;
+    border: 5px solid red;
+
+}
+#aa{
+    background-color: blue;
+}
+#bb{
+    background-color: brown;
+}
+#cc{
+    background-color: blueviolet;
+}
+#dd{
+    background-color: gold;
+}
+
+@media(min-width:640px){
+    .container{
+        flex-direction: row;
+    }
+}
+
+@media(max-width:640px){
+    .container{
+        flex-direction: column;
+        
+    }
+}
